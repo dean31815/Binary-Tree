@@ -1,11 +1,11 @@
 var tree;
 
 function setup() {
-  createCanvas(800, 500);
+  createCanvas(displayWidth - 30, displayHeight);
   background(51);
 
   tree = new BinaryTree();
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 50; i++) {
     tree.addValue(floor(random(0, 100)));
   }
   console.log(tree);
