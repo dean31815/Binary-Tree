@@ -1,7 +1,7 @@
 var tree;
 
 function setup() {
-  createCanvas(displayWidth - 30, displayHeight);
+  createCanvas(windowWidth - 20, windowHeight - 20);
   background(51);
 
   tree = new BinaryTree();
